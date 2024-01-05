@@ -11,8 +11,14 @@ Recommendation is to Upgrade PowerShell to version 7 by simply running the comma
 
 ## Topics Discussed
 >AD Server configuration
+
 >DHCP and DNS Server configuration
+
 >Desired state configuration
+
 >Loop
+
 >Variables
+
+
 >AD Users
