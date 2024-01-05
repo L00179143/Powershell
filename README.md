@@ -1,16 +1,18 @@
-# Configuration Change tracking on Cisco Switch 
-- This program is a Python program designed to create a log file whenever there is any configuration change on a Cisco Switch.
-- The program compares the latest "switch show run" configuration output with its previous output line by line. 
-- If the latest configuration is different compared to previous configuration, a new log will be created with the date of change on the file name. If no changes were observed, No files are created. Instead it reports saying "The files are equal."
+# PowerShell 
 
-## Prerequisites
-- Python 3.11.0
+In our laboratory exercises, we used Windows PowerShell CLI to configure the Primary and Secondary Active Directory servers, configured forest, database location, Users, and Group policy creation. We also configured IP addresses and other network-related information on DNS and DHCP servers. 
+For an organization of bigger size, PowerShell also allows to use of Excel files to import the User details for Bulk user creation. PowerShell was also used to create Desired State Configuration (DSC) of Windows Server 2016 and that allowed our servers to configure FTP and HTTPS through code. 
+Apart from configuring the Servers, we also explored the functionality of PowerShell to create modules on Variables, Data types, Conditional branching, Piping, Loops, Utilities, Logging, etc, which covers all aspects of scripting and Windows Server management just through PowerShell. 
+By Acquiring in-depth knowledge of PowerShell, Administrators can significantly enhance their productivity by quickly accomplishing their tasks and efficiency. 
 
-## Libraries Used
->difflib
+The test was carried out using the Operating systems and tools mentioned in the methodology section. Virtual machines were used to carry out the tests and these VMs were configured with enough RAM, CPU, and Storage and were in line with the minimum requirements as per the OS and VMware recommendations.
 
->datetime
+Recommendation is to Upgrade PowerShell to version 7 by simply running the command “winget search Microsoft PowerShell” that identifies the latest version and installs the same. 
 
-## About the Program:
-1. This program will compare log files named "SwitchShow1" & "SwitchShow2" located in Source folder. 
-2. The Log file is configuration of a Cisco Switch. The program compares both the log files line by line and creates a log file, if the configuration output differs between the files.
+## Topics Discussed
+>AD Server configuration
+>DHCP and DNS Server configuration
+>Desired state configuration
+>Loop
+>Variables
+>AD Users
